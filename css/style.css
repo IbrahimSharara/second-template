@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header .container {
+    display: flex;
+    width: 100%;
+    height: 4em;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #277BC0;
+    flex-wrap: nowrap;
+}
+
+.header .container img {
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.menu li {
+    color: #fff;
+    font-weight: bolder;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header .container .log-in {
+    margin-right: 20px;
+    font-size: 1.4em;
+    background-color: #319DA0;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.header .container .log-in:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.background {
+    margin-top: 10px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.background .left {
+    width: 50%;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.left h1,
+.left p {
+    margin-bottom: 20px;
+}
+
+.background .left .sign-up,
+.keep {
+    background-color: #277BC0;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1em;
+    width: fit-content;
+    display: inline-block;
+    color: #fff;
+    margin-left: -5px;
+}
+
+.background .left .sign-up:hover,
+.background .left .keep:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+.img img {
+    width: 90%;
+    border-radius: 20px;
+}
+
+.content {
+    box-shadow: 5px 5px 20px rgb(196, 189, 189);
+    width: 80%;
+    height: fit-content;
+    padding: 20px;
+    font-weight: 700;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.content  figure {
+    width: calc(100%/3);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content figure img {
+    width: 100%;
+    height: 157.917px;
+    margin-bottom: 10px;
+}
+
+.fixed-icon{
+    position: fixed;
+    right: 20px;
+    top: 30%;
+    background-color: #FFB200;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fixed-icon a{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #277BC0;
+}
+
